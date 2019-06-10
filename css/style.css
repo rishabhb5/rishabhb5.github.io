@@ -38,9 +38,9 @@ body {
 
 
 /*-- Landing Page --*/
-.home-inner {
+ .home-inner {
   background-image: url(../assets/4.jpg);
-}
+} 
 .caption {
   width: 100%;
   max-width: 100%;
