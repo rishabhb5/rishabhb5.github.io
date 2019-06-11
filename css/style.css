@@ -5,6 +5,10 @@ body {
   font-family: 'Lato', sans-serif;
   color: #505962;
 }
+p {
+  margin-left: 300px;
+  margin-right: 300px;
+}
 
 /*-- Navigation --*/
 .navbar {
@@ -50,6 +54,32 @@ body {
   color: white;
   text-transform: uppercase;
 }
+/*.summary {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}*/
+
+/*--- Media Queries ---*/
+@media (max-width: 767px) {
+  p {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media (max-width: 991px) {
+  p {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
