@@ -53,6 +53,8 @@ p {
   z-index: 1;
   color: white;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+
 }
 /*.summary {
   width: 100%;
